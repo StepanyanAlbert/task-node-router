@@ -12,7 +12,7 @@ router.get('/test', (req, res, next) => {
 });
 
 router.get('.*', (req, res, next) => {
-    res.end('world');
+    res.end(' world');
 });
 
 app.listen(3000, () => console.log('Server has been started!'));
